@@ -20,13 +20,9 @@ function App() {
         ignoreFirstVideo
         category={dadosIniciais.categorias[0]}
       />
-      var contagem = dadosIniciais.categorias.length();
-      for(var i = 1; i < contagem; i++){
-          <Carousel
-          category={dadosIniciais.categorias[i]}
-        />   
-      }
-      {/* <Carousel
+      
+     <div>var contagem = dadosIniciais.categorias.length();</div>
+      <Carousel
         category={dadosIniciais.categorias[1]}
       />
 
@@ -44,15 +40,16 @@ function App() {
 
       <Carousel
         category={dadosIniciais.categorias[5]}
-      />      
+      /> 
 
-      <Carousel
-        category={dadosIniciais.categorias[6]}
-      />       */}
+      <div>
+        <b>contagem</b>
+        </div>     
 
       <Footer />
+     
     </div>
-  );
+      );
 }
 
 export default App;
