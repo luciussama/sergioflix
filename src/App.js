@@ -21,7 +21,6 @@ function App() {
         category={dadosIniciais.categorias[0]}
       />
       
-     <div>var contagem = dadosIniciais.categorias.length();</div>
       <Carousel
         category={dadosIniciais.categorias[1]}
       />
@@ -41,15 +40,9 @@ function App() {
       <Carousel
         category={dadosIniciais.categorias[5]}
       /> 
-
-      <div>
-        <b>contagem</b>
-        </div>     
-
       <Footer />
-     
     </div>
-      );
+  );
 }
 
 export default App;
