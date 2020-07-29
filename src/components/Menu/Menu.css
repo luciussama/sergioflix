@@ -23,7 +23,7 @@
   padding-left: 5%;
   padding-right: 5%;
 
-  background: var(--black);
+  background: var(--blueviolet);
   border-bottom: 2px solid var(--primary);
 }
 body {
@@ -42,8 +42,8 @@ body {
 }
 
 .ButtonLink {
-  color: var(--white);
-  border: 1px solid var(--white);
+  color: var(--aliceblue);
+  border: 1px solid var(--aliceblue);
   box-sizing: border-box;
   cursor: pointer;
   padding: 16px 24px;
