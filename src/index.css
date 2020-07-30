@@ -27,3 +27,10 @@ body {
 a {
   color: inherit;
 } 
+
+#root {
+  /*  Serve para calcular a altura da página. É 100% da tela menos o padding do topo da página. */
+  min-height: calc(100vh - var(--bodyPaddingTop));
+  display:flex;
+  flex-direction: column;
+}
