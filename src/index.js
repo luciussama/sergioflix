@@ -6,6 +6,7 @@ import Home from './pages/Home/Index';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import CadastroVideo from './pages/cadastro/Video';
 import ModalContatos from './components/ModalContatos/index';
+import CadastroCategoria from './pages/cadastro/categoria/index';
 
 function SergioLogo(){
   return(
@@ -23,6 +24,7 @@ ReactDOM.render(
 <Switch>
 <Route path  = "/" component ={Home} exact/>
   <Route path="/cadastro/video" component={CadastroVideo} />
+  <Route path="/cadastro/categoria" component={CadastroCategoria} />
   <Route path="/saibamais" component={ModalContatos} />
   <Route component={Pagina404} />
 </Switch>
