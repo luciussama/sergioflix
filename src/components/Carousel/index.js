@@ -1,6 +1,8 @@
 import React from 'react';
 import { VideoCardGroupContainer, Title, ExtraLink } from './styles';
 import VideoCard from './components/VideoCard';
+//SliderItem é uma função dentro do componente slider. Desta forma escrita, estou importando o default (Slider) e 
+// uma biblioteca específica do slider (SliderItem)
 import Slider, { SliderItem } from './components/Slider';
 
 function Carousel({

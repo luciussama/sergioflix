@@ -24,9 +24,15 @@ function Home() {
         category={dadosIniciais.categorias[1]}
       />
 
+      <BannerMain
+        videoTitle={dadosIniciais.categorias[2].videos[2].titulo}
+        url={dadosIniciais.categorias[2].videos[2].url}
+        videoDescription={"Início das coisas nerds. Essa é para o pai."}
+      />
+      
       <Carousel
         category={dadosIniciais.categorias[2]}
-      />      
+      />     
 
       <Carousel
         category={dadosIniciais.categorias[3]}
@@ -38,6 +44,10 @@ function Home() {
 
       <Carousel
         category={dadosIniciais.categorias[5]}
+      />      
+
+      <Carousel
+        category={dadosIniciais.categorias[6]}
       /> 
       
     </PageDefault>
