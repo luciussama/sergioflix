@@ -30,18 +30,18 @@ function ModalContatos(){
     return (
       <>
         <Modal show={true} onHide={handleClose}>
-          <Header closeButton>
-            <Title>Modal heading</Title>
+          <Header>
+            <Title>Saiba mais.</Title>
           </Header>
-          <Body>Woohoo, you're reading this text in a modal!</Body>
+          <Body><b>Informações sobre o Sérgio</b>
+          E-mail: sergiogarciabr@hotmail.com
+          LinkedIn: xxxxx@linkedin(sei lá)
+          </Body>
           <Footer>
-            <Button variant="secondary" onClick={handleClose}>
-              Close
+            <Button variant="secondary" show={false}>
+              Voltar
             </Button>
-            <Button variant="primary" onClick={handleClose}>
-              Save Changes
-            </Button>
-          </Footer>
+           </Footer>
         </Modal>
       </>
     );
