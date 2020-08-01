@@ -1,15 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-
-
-import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import CadastroVideo from './pages/cadastro/Video';
 import CadastroCategoria from './pages/cadastro/categoria';
-import { Title } from 'react-bootstrap/ModalTitle';
-import ModalContatos from './components/ModalContatos/index';
-import { Component } from 'react';
 
 // Desafio master blaster na descrição
 // Colocar um jogo ou brincadeira nessa página:
