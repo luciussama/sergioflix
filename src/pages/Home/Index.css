@@ -1,5 +1,6 @@
 .Home {
   text-align: center;
+  background-color: brown;
 }
 
 .Home-logo {
@@ -14,14 +15,18 @@
 }
 
 .Home-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ --primary: #2A7AE4;
+  --black: #000000;
+  --blackLighter: #9E9E9E;
+  --grayLight: #F5F5F5;
+  --grayMedium: #e5e5e5; 
+  --white: #FFFFFF;
+  --frontEnd: #6BD1FF;
+  --backEnd: #00C86F;
+  --chocolate: #D2691E;
+  --aliceblue: #F0F8FF;
+  --blueviolet: #8A2BE2;
+  --brown: #A52A2A;
 }
 
 .Home-link {

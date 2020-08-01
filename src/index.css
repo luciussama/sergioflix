@@ -22,6 +22,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  
 }
 
 a {
@@ -29,8 +30,8 @@ a {
 } 
 
 #root {
-  /*  Serve para calcular a altura da página. É 100% da tela menos o padding do topo da página. */
   min-height: calc(100vh - var(--bodyPaddingTop));
-  display:flex;
+  display: flex;
   flex-direction: column;
+  background-color: brown;
 }

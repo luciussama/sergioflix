@@ -15,7 +15,7 @@ function VideoCard({ videoTitle, videoURL, categoryColor }) {
   return (
     <VideoCardContainer
       url={image}
-      to={videoURL}
+      href={videoURL}
       target="_blank"
       style={{ borderColor: categoryColor || 'red' }}
       title={videoTitle}
