@@ -29,24 +29,12 @@ const Pagina404 = () => (
   </div>
 )
 
-function sobreMim(){
-  return(
-  <>
-    <h1>Sobre mim</h1>
-    <b>E-mail</b> sergiogarciabr@hotmail.com
-    <b> LinkedIn </b> Não sei.
-    <b>GitHub</b> Também não sei...
-  </>
-  );
-}
-
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/" component={Home} exact />
       <Route path="/cadastro/video" component={CadastroVideo} />
       <Route path="/cadastro/categoria" component={CadastroCategoria} />
-      <Route path="/SobreMim" component={sobreMim} />
       <Route component={Pagina404} />
     </Switch>
   </BrowserRouter>,
