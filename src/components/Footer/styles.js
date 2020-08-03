@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
-
 export const FooterBase = styled.footer`
-  background: var(--black);
+  background: var(--cabecalho);
   border-top: 2px solid var(--primary);
   padding-left: 16px;
   padding-right: 16px;
@@ -14,6 +13,6 @@ export const FooterBase = styled.footer`
     margin-bottom: 50px;
   }
   .Logo {
-    max-width: 168px;
+    max-width: 120px;
   }
 `;
