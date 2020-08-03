@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 export const FooterBase = styled.footer`
-  background: var(--blueviolet);
+  background: var(--black);
   border-top: 2px solid var(--primary);
   padding-left: 16px;
   padding-right: 16px;
@@ -13,7 +13,7 @@ export const FooterBase = styled.footer`
   @media (max-width: 800px) {
     margin-bottom: 50px;
   }
-  .Logo{
-    max-width: 105px;
+  .Logo {
+    max-width: 168px;
   }
 `;

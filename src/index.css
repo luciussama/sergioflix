@@ -12,17 +12,12 @@
   --white: #FFFFFF;
   --frontEnd: #6BD1FF;
   --backEnd: #00C86F;
-  --chocolate: #D2691E;
-  --aliceblue: #F0F8FF;
-  --blueviolet: #8A2BE2;
-  --brown: #A52A2A;
 }
 
 html,
 body {
   margin: 0;
   padding: 0;
-  
 }
 
 a {
@@ -33,5 +28,4 @@ a {
   min-height: calc(100vh - var(--bodyPaddingTop));
   display: flex;
   flex-direction: column;
-  background-color: brown;
 }
