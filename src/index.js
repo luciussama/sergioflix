@@ -5,7 +5,7 @@ import './index.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import CadastroVideo from './pages/cadastro/Video';
-import CadastroCategoria from './pages/cadastro/Categoria';
+import CadastroCategoria from './pages/cadastro/categoria';
 
 // Desafio master blaster na descrição
 // Colocar um jogo ou brincadeira nessa página:

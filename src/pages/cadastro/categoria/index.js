@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
-import Button from './../../../components/Button/index';
+import Button from '../../../components/Button/index';
 
 function CadastroCategoria() {
   const valoresIniciais = {
